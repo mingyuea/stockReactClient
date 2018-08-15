@@ -1,0 +1,21 @@
+@import "phase1shared";
+
+.mainCont{
+	position: absolute;
+	left: $tradeL;
+	top: $toggleTop;
+	height: $tradeH;
+	width: $tradeW;
+}
+
+.btn{
+	font-size: 1.6vw;
+	padding: 3px;
+	display: block;
+	border: 1px solid white;
+	margin-bottom: 5px;
+}
+
+.btn:hover{
+	@extend %btnHover;
+}

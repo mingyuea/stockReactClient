@@ -1,0 +1,15 @@
+@import 'phase1shared';
+
+.mainCont{
+	position: absolute;
+	left: $graphL;
+	width: $graphW;
+	overflow: auto;
+	border: 1px solid white;
+	top: $graphTop;
+	height: 95% - $graphTop;
+}
+
+.mainCont:hover{
+	cursor: pointer;
+}

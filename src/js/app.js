@@ -1,0 +1,1 @@
+import RootComponent from './RootComponent.js';

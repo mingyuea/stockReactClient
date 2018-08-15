@@ -1,0 +1,37 @@
+@import 'phase1shared';
+
+.mainCont{
+	position: absolute;
+	top: $toggleTop;
+	left: 0;
+	width: $graphL - 5%;
+	height: $listTop - $toggleTop;
+	padding-left: 5px;
+}
+
+.textDiv{
+	font-size: 2.25vmin;
+}
+
+.input{
+	display: block;
+	width: 90%;
+	margin-top: 5px;
+}
+
+.btn{
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	margin-top: 5px;
+}
+
+.btn:hover{
+	@extend %btnHover;
+}
+
+.err{
+	color: red;
+	font-size: 2vmin;
+	margin-top: 2px;
+}

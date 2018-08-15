@@ -1,0 +1,31 @@
+@import 'phase1shared';
+
+$tabBG: rgba(118, 166, 242, 1);
+$borderColor: rgba(31, 90, 183, 1);
+
+.mainCont{
+	position: absolute;
+	left: 0;
+	width: $graphL - 5%;
+	top: $listTop;
+	max-height: $listHt;
+	overflow-y: auto;
+	border: 1px solid white;
+}
+
+.title{
+	border-bottom: 3px solid white;
+	font-size: 2.75vmin;
+	padding: 5px 0px 5px 5px;
+}
+
+.tabs{
+	display: block;
+	font-size: 2vmin;
+	border-bottom: 2px solid white;
+	padding: 10px 0px 10px 20px;
+}
+
+.tabs:hover{
+	@extend %btnHover;
+}

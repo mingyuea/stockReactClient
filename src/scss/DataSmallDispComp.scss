@@ -1,0 +1,27 @@
+@import 'phase1shared';
+
+.mainCont{
+	position: absolute;
+	top: $listTop + $listHt + 5%;
+	height: 90% - $listTop - $listHt;
+	left: 0;
+	width: $graphL - 5%;
+	border: 1px solid white;
+}
+
+.headerDiv{
+	font-size: 3vmin;
+	padding: 5px;
+	border-bottom: 2px solid white;
+}
+
+.explainDiv{
+	font-size: 1.75vmin;
+	padding: 5px;
+	border-bottom: 2px solid white;
+}
+
+.dataDiv{
+	font-size: 2.2vmin;
+	margin: 5px 0px 5px 10px;
+}

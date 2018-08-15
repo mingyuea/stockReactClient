@@ -1,0 +1,66 @@
+@import 'initShared';
+
+.cont{
+	@extend %contShared;
+
+	left: 25%;
+	top: 12%;
+	width: 35%;
+	height: 60%;
+	color: black;
+}
+
+.textCont{
+	position: relative;
+	display: block;
+	left: 10%;
+	display: block;
+	margin: 5%;
+}
+
+.textArea{
+	position: relative;
+	left: 5%;
+	display: block;
+	margin: 5px;
+	font-size: 2.75vmin;
+	font-family: Helvetica;
+}
+
+.inputBox{
+	position: relative;
+	margin: 5px;
+	display: block;
+	left: 5%;
+	width: 65%;
+}
+
+.btnCont{
+	position: relative;
+	display: block;
+	margin-top: 10%;
+	left: 20%;
+}
+
+.btn{
+	@extend %btnShared;
+}
+
+.btn:hover{
+	@extend %btnHoverShared;
+}
+
+.errMsg{
+	position: relative;
+	color: red;
+	font-size: 2.25vmin;
+	left: 10%;
+	margin-top: 5%;
+}
+
+.loadingMsg{
+	position: relative;
+	font-size: 2.5vmin;
+	left: 10%;
+	margin-top: 5%;
+}

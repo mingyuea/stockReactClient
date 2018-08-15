@@ -1,0 +1,40 @@
+@import 'phase1shared';
+
+
+.mainCont{
+	position: absolute;
+	display: block;
+	left: $graphL;
+	top: $toggleTop;
+	height: $toggleHt;
+	width: $toggleW;
+}
+
+.monthTab{
+	font-size: 1.5vmin;
+	width: 9%;
+	margin-right: 5%;
+	margin-top: 10px;
+	padding-left: 2%;
+	display: inline-block;
+	border: 1px solid white;
+}
+
+.monthTab:hover{
+	@extend %btnHover;
+}
+
+.symbolTitle{
+	display: inline-block;
+	font-size: 3.25vmin;
+}
+
+.currPrice{
+	display: inline-block;
+	margin-left: 10px;
+	font-size:2.2vmin;
+}
+
+.minorInfo{
+	font-size: 2.3vmin;
+}

@@ -1,0 +1,23 @@
+%contShared{
+	position: absolute;
+	z-index: 101;
+	padding: 5%;
+	border-radius: 5px;
+	background-color: rgba(239, 247, 246, 1);
+	font-family: Helvetica;
+}
+
+%btnShared{
+	display: inline-block;
+	margin: 15% 10% 5% 0;
+	padding: 10px;
+	background-color: rgba(134, 185, 224, 1);
+	border-radius: 5px;
+	font-family: Helvetica;
+	font-size: 2vw;
+}
+
+%btnHoverShared{
+	cursor: pointer;
+	background-color: rgba(85, 155, 209, 1);
+}

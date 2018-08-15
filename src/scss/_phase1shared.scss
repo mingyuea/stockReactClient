@@ -1,0 +1,23 @@
+$graphL: 25%;
+$graphTop: 25%;
+$graphW: 95% - $graphL;
+
+$listTop: 25%;
+$listHt: 30%;
+
+$toggleW: 30%;
+$toggleHt: 15%;
+$toggleTop: 10%;
+
+$tradeL: $graphL + $toggleW;
+$tradeH: 10%;
+$tradeW: 5%;
+
+$formL: $tradeL + $tradeW;
+$formW: 90% - $formL;
+
+%btnHover {
+	cursor: pointer;
+	color: black;
+	background-color: rgba(229, 239, 255, 1);
+}
