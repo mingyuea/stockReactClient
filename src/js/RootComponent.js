@@ -26,7 +26,7 @@ class RootComponent extends React.Component{
 			"isSignUp": false,
 			"loadingMsg": null,
 			"headerStocks": [],
-			"fetchUrl": "http://localhost:5005",
+			"fetchUrl": "https://ming-stock-server.herokuapp.com",
 			"currName": "anonymous",
 			"dispName": "Your",
 			"stockList": [
